@@ -1,0 +1,3 @@
+This repository contains a python script that scrapes the CME Group website for the quotes of Eurodollars futures and then write them into an excel spreadsheet using the Pandas, requests and xlsxwriter libraries. You can then use the data from this script to create a Eurodollar Futures Yield Curve.
+
+The most difficult part about writing this or any other scraping script is figuring out the target website. If the site is generated from JSON rather than directly from HTML, you will need to go into dev-tools and click around under the network tab to find the url for a plausible request, and then use that url for your script. This will probably take a little bit of experimenting and guesswork. Hope you find it useful.
